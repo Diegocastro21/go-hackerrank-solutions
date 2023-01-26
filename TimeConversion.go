@@ -11,5 +11,5 @@ func timeConversion(s string) string {
         return fmt.Sprintln(err)
     }
     
-    return fmt.Sprintln(t.Format("15:04:05"))
+    return t.Format("15:04:05")
 }
