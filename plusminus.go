@@ -1,3 +1,5 @@
+package plus
+
 func plusMinus(arr []int32) {
     // Write your code here
     var positive, negative, zero int32
